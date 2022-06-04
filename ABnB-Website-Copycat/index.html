@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Airbnb Copycat</title>
+    <script src="https://kit.fontawesome.com/394916b5e6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">airbnb fake</a>
+              <div class="nav" id="navbarNav">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Become a Host</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Help</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Log in</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container-fluid top-box">
+            <div class="container-fluid" id="pic-holder">
+                <img src="assets/abnb-site-img-1.jpg" class="img" alt="Cozy home">
+            </div>
+            <div class="container-fluid" id="form">
+                <div class="form-floating">
+                    <H1>Find places to stay on Airbnb</H1>
+                    <p id="form-p">Discover entire homes and private rooms perfect for any trip.</p>
+                </div>
+                <div class="form-floating form-form">
+                    <form class="form-floating" action="results.html" target="_blank" role="search" autocomplete="off">
+                        <input type="text" class="form-control" id="location" placeholder="Anywhere" value="Anywhere">
+                        <label id="locate" for="location">LOCATION</label>
+                        <div class="form-floating dates">
+                            <label class="st-date" for="start">CHECK IN</label>
+                            <input type="date" class="form-control" id="start" placeholder="Anywhere" name="trip-start" value="2022-06-10" min="2022-06-10" max="2022-12-31">
+                            <div class="space"></div>
+                            <label class="st-date" for="end" id="checkout">CHECK OUT</label>
+                            <input type="date" class="form-control" id="end" placeholder="Anywhere" name="trip-end" value="2022-06-11" min="2022-06-11" max="2022-12-31">
+                        </div>
+                        <div class="form-floating">
+                            <div class="form-floating dates" id="people">
+                                <label class="st-date" for="adults">ADULTS</label>
+                                <input type="number" class="form-control" id="adults" placeholder="2" name="Adults" value="2">
+                                <div class="space"></div>
+                                <label class="st-date" for="children" id="child">CHILDREN</label>
+                                <input type="text" class="form-control" id="children" placeholder="Anywhere" name="trip-end" value="2022-06-11" min="2022-06-11" max="2022-12-31">
+                            </div>
+                            <div class="form-floating">
+                                <span class="amen-txt">Amenities</span>
+                            </div>
+                            <div class="form-floating amenities">
+                                <button type="button" class="btn btn-light">Hot tub</button>
+                                <button type="button" class="btn btn-light">Pool</button>
+                                <button type="button" class="btn btn-light">Wifi</button>
+                            </div>
+                            <div class="form-floating search-btn">
+                                <button class="btn btn-primary" type="button">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+          </div>
+    </header>
+    <div class="container-fluid box-2">
+        <div class="container-fluid img-h">
+            <img src="assets/abnb-site-img2.webp" class="img" alt="Person relaxing in a beautifully decorated room" id="pic-2">
+        </div>
+        <div class="container-fluid txt-2">
+            <h2>Try hosting</h2>
+            <p>Earn up to $4,493/month by sharing your space in "Your City"  ?</p>
+            <button type="button" class="btn btn-light">Learn more</button>
+        </div>
+    </div>
+    <div class="container-fluid box-3">
+        <div class="container-fluid txt-3">
+            <h3>What guests are saying about homes in United States</h3>
+            <p>Over <strong>77,500,000 guest reviews</strong> with an average of <strong>4.8 out of 5 stars</strong></p>
+        </div>
+        <div class="container-fluid card-set-1">
+            <div class="card">
+                <img src="assets/site-img3.webp" class="card-img-top" alt="outdoor point of view of a cute house with front yard fire pit during sunset">
+                <div class="container-fluid icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, numquam! Dolor debitis atque, labore consectetur autem corporis. Et architecto veritatis fugiat necessitatibus deleniti saepe aspernatur in cumque praesentium. Iure, deleniti."</p>
+                </div>
+                <div class="container-fluid icon-txt">
+                    <i class="fa-solid fa-clipboard-user"></i>
+                    <p class="user">Clotilde</p>
+                    <p class="user-loc">France</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/site-img4.webp" class="card-img-top" alt="beautifully decorated bedroom">
+                <div class="container-fluid icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, numquam! Dolor debitis atque, labore consectetur autem corporis. Et architecto veritatis fugiat necessitatibus deleniti saepe aspernatur in cumque praesentium. Iure, deleniti."</p>
+                </div>
+                <div class="container-fluid icon-txt">
+                    <i class="fa-solid fa-clipboard-user"></i>
+                    <p class="user">Emily</p>
+                    <p class="user-loc">United States</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/site-img5.webp" class="card-img-top" alt="cool outdoor resting area in front of rv-style home">
+                <div class="container-fluid icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, numquam! Dolor debitis atque, labore consectetur autem corporis. Et architecto veritatis fugiat necessitatibus deleniti saepe aspernatur in cumque praesentium. Iure, deleniti."</p>
+                </div>
+                <div class="container-fluid icon-txt">
+                    <i class="fa-solid fa-clipboard-user"></i>
+                    <p class="user">Suzie</p>
+                    <p class="user-loc">United States</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid box-3">
+        <h3>Travel with peace of mind when you book an Airbnb</h3>
+        <hr/>
+    </div>
+    <div class="container-fluid box-3 box-4">
+        <div class="card card-2" id="c-2">
+            <i class="fa-solid fa-user-shield fa-2x"></i>
+            <h4>Protection with Aircover</h4>
+            <div class="card-body">
+              <p class="card-text">The most comprehensive protection in travel. Always included, always free.</p>
+            </div>
+        </div>
+        <div class="card card-2" id="c-2">
+            <i class="fa-solid fa-route fa-2x"></i>
+            <h4>Flexible cancel options</h4>
+            <div class="card-body">
+              <p class="card-text">Cancellation options make it easy to re-book if your plans change.</p>
+            </div>
+        </div>
+        <div class="card card-2" id="c-2">
+            <i class="fa-solid fa-face-smile fa-2x"></i>
+            <h4>24/7 customer support</h4>
+            <div class="card-body">
+              <p class="card-text">Talk to our support team from anywhere in the world, any hour of the day.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="hr2"/>
+    <h3 class=" box-3 just-book">Just booked in United States</h3>
+    <div class="container-fluid card-set-1 box-3 box-5">
+        <div class="card card-3" >
+            <img src="assets/site-img6.webp" class="card-img-top" alt="RV-style home in desert">
+            <div class="conatiner-fluid txt-3">
+                <span class="loc-txt">
+                    <p>Camper/RV in Malibu</p>
+                </span>
+                <span>
+                    <i class="fa-solid fa-star"></i>    
+                    <p><strong>4.86</strong>(485)</p>
+                </span>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Malibu Dream Trailer<br/>
+                    <strong>$1,000</strong> / night
+                </p>
+            </div>
+        </div>
+        <div class="card card-3" >
+            <img src="assets/site-img7.webp" class="card-img-top" alt="mini house on the side of a cliff">
+            <div class="conatiner-fluid txt-3">
+                <span class="loc-txt">
+                    <p>Treehouse in Campton</p>
+                </span>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <p><strong>4.91</strong>(67)</p>
+                </span>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                  Cliff Dweller: Spend a night Suspended... <br/>
+                  <strong>$499</strong> / night
+              </p>
+            </div>
+        </div>
+        <div class="card card-3" >
+            <img src="assets/site-img8.webp" class="card-img-top" alt="nice loooking tree house">
+            <div class="conatiner-fluid txt-3">
+                <span class="loc-txt">
+                    <p>Treehouse in Park City</p>
+                </span>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <p><strong>4.86</strong>(490)</p>
+                </span>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                  Dreamy Treehouse Above Park City, Utah <br/>
+                  <strong>$288</strong> / night
+              </p>
+            </div>
+        </div>
+        <div class="card card-3" >
+            <img src="assets/site-img9.webp" class="card-img-top" alt="house surrounded by nice">
+            <div class="conatiner-fluid txt-3">
+                <span class="loc-txt">
+                    <p>Treehouse in Hardwick</p>
+                </span>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <p><strong>4.98</strong>(466)</p>
+                </span>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                  Lovely Treehouse in the Woods next to... <br/>
+                  <strong>$188</strong> / night
+              </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid box-3 btn-box">
+        <button type="button" class="btn btn-secondary btn-lg">Show (2000+) ></button>
+    </div>
+    <div class="container-fluid box-3 when-box">
+        <h3>When are you travelling?</h3>
+        <p>Add dates for updated pricing and availability</p>
+        <button type="button" class="btn btn-secondary btn-lg">Add Dates</button>
+    </div>
+    <div class="container-fluid box-3 box-6">
+        <p class="pagination">
+            <a href="">Airbnb</a>
+            <strong>></strong>
+            <a href="" id="stay">Stays</a>
+            <strong id="us">></strong> 
+            United States
+        </p>
+        <hr/>
+    </div>
+    <footer class="container-fluid box-3">
+        <div class="foot-li">
+            <p>© 2022 Airbnb, Inc. All rights reserved</p>
+            <ul class="ul-social">
+                <li class="soc-icon priv-icon">
+                    <a href="">Privacy</a> 
+                </li>
+                <li class="soc-icon">
+                    <a href="">Terms</a> 
+                </li>
+                <li class="soc-icon">
+                    <a href="">Site Map</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-camera"></i>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
